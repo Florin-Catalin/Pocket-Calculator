@@ -1,0 +1,32 @@
+#Switches
+NET "Number[0]" LOC = "T10" ;
+NET "Number[1]" LOC = "T9" ;
+NET "Number[2]" LOC = "V9" ;
+NET "Number[3]" LOC = "M8" ;
+NET "Number[4]" LOC = "N8" ;
+NET "Number[5]" LOC = "U8" ;
+NET "Number[6]" LOC = "V8" ;
+NET "Number[7]" LOC = "T5" ;
+#Buttons
+NET "Buttons[0]" LOC = "C4" ;
+NET "Buttons[1]" LOC = "D9" ;
+NET "Buttons[2]" LOC = "A8" ;
+NET "Buttons[3]" LOC = "C9" ;
+NET "Buttons[4]" LOC = "B8" ;
+NET "Buttons[4]" CLOCK_DEDICATED_ROUTE = FALSE;
+#Anodes
+NET "Anodes[0]" LOC = "N16" ;
+NET "Anodes[1]" LOC = "N15" ;
+NET "Anodes[2]" LOC = "P18" ;
+NET "Anodes[3]" LOC = "P17" ;
+#7Seg
+NET "Segments[0]" LOC = "T17" ;
+NET "Segments[1]" LOC = "T18" ;
+NET "Segments[2]" LOC = "U17" ;
+NET "Segments[3]" LOC = "U18" ;
+NET "Segments[4]" LOC = "M14" ;
+NET "Segments[5]" LOC = "N14" ;
+NET "Segments[6]" LOC = "L14" ;
+#NET "seg[7]" LOC = "M13" ;
+
+NET Clock LOC = "V10";
